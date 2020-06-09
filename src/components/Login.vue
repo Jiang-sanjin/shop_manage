@@ -1,6 +1,8 @@
 <template>
     <div>
        登录组件
+       下
+       SF
     </div>
 </template>
 
