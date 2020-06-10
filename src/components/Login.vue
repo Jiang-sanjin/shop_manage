@@ -94,7 +94,7 @@ export default {
     width: 450px;
     height: 300px;
     background-color: azure;
-    border-radius: 3px;
+    border-radius: 5px;
     position: absolute;
     left: 50%;
     top: 50%;
