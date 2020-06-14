@@ -68,7 +68,7 @@ export default {
         this.$refs.loginFormRef.validate(async valid => {  //async异步函数
             // console.log(valid);
             if( !valid ) return;      //await只能用于被async修饰的函数
-            const { data:res}  = await this.$http.post( "login" , this.loginForm);
+            const { data:res}  = await this.$http.post( "login" , this.loginForm);   //解构赋值
             console.log(res)
             if( res.meta.status !==200 ) return this.$message.error("登录失败！");
             this.$message.success("登录成功！");
@@ -101,9 +101,9 @@ export default {
     transform: translate(-50%,-50%);
 }
 .avatar_box{
-    height: 130px;
-    width: 130px;
-    border: 10px solid #eee;
+    height: 120px;
+    width: 120px;
+    border: 12px solid #eee;
     border-radius: 50%;
     box-shadow: 0 0 10px #ddd;
     position: absolute;
