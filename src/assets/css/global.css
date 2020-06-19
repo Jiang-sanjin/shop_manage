@@ -21,3 +21,8 @@ html, body, #app {
 .el-table{
     margin-top: 15px;
 }
+
+/* 所有的分页样式 */
+.el-pagination{
+    margin-top: 15px;
+}
